@@ -229,7 +229,7 @@ def broadcast(message):
     bot.send_message(message.chat.id, "✅ Broadcast completed.")
 
 # ================= RUN =================
-if name == "main":
+if __name__ == "__main__":
     print("🔥 FULL FEATURE BOT RUNNING...")
     while True:
         try:
